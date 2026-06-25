@@ -1,46 +1,58 @@
-<h1 align="center">🧬 Julian Grandvallet Contreras</h1>
-
-<p align="center">
-  <b>Computational biologist · bioinformatics for cancer genomics</b><br>
-  Decoding childhood leukemia and cancer stem cells through high-throughput sequencing<br>
-  <i>University of Colorado Anschutz Medical Campus — Hematology, Oncology &amp; BMT</i>
-</p>
-
-<p align="center">
-  <a href="https://julgrandvallet.github.io"><img alt="Website" src="https://img.shields.io/badge/Website-julgrandvallet.github.io-1f6feb?style=flat-square&logo=githubpages&logoColor=white"></a>
-  <a href="https://scholar.google.com/citations?user=WKPGteEAAAAJ"><img alt="Google Scholar" src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat-square&logo=googlescholar&logoColor=white"></a>
-  <a href="https://orcid.org/0000-0001-8021-070X"><img alt="ORCID" src="https://img.shields.io/badge/ORCID-A6CE39?style=flat-square&logo=orcid&logoColor=white"></a>
-  <a href="https://www.linkedin.com/in/julian-grandvallet/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"></a>
-  <a href="https://www.researchgate.net/profile/Julian-Grandvallet-Contreras"><img alt="ResearchGate" src="https://img.shields.io/badge/ResearchGate-00CCBB?style=flat-square&logo=researchgate&logoColor=white"></a>
-</p>
+<h1 align="center">Julian Grandvallet Contreras</h1>
+<p align="center"><b>Computational Biologist | Bioinformatics for Cancer Genomics</b><br>RNA-seq, Single-cell, CUT&RUN, ATAC-seq — childhood leukemia &amp; cancer stem cells</p>
 
 ---
 
-### 🔬 What I work on
+### About Me
 
-- **Bulk RNA-seq** — nf-core/rnaseq · Salmon · DESeq2 / edgeR · GSEA (clusterProfiler, msigdbr)
-- **Single-cell RNA-seq** — Cell Ranger · Seurat (SCTransform, Harmony)
-- **CUT&RUN / ChIP** — nf-core/cutandrun · DiffBind differential binding
-- **ATAC-seq** — differential accessibility · TOBIAS footprinting
+- Computational biologist at the **University of Colorado Anschutz Medical Campus** (Hematology, Oncology & BMT)
+- Build reproducible high-throughput sequencing pipelines for pediatric cancer research
+- Focused on bulk & single-cell RNA-seq and epigenomics (CUT&RUN, ATAC-seq)
+- Background in molecular biology, cancer stem cells, and genomics
+- Contact: julian.g.contreras2025@gmail.com / [julgrandvallet.github.io](https://julgrandvallet.github.io)
 
-### 🛠️ Toolbox
+### Tech Stack
 
-<p>
-  <img alt="R" src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img alt="Bash" src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white">
-  <img alt="Quarto" src="https://img.shields.io/badge/Quarto-39729E?style=for-the-badge&logo=quarto&logoColor=white">
-  <img alt="Nextflow" src="https://img.shields.io/badge/Nextflow-0DC09D?style=for-the-badge&logo=nextflow&logoColor=white">
-  <img alt="Bioconductor" src="https://img.shields.io/badge/Bioconductor-1F6FEB?style=for-the-badge">
-  <img alt="tidyverse" src="https://img.shields.io/badge/tidyverse-1A162D?style=for-the-badge&logo=tidyverse&logoColor=white">
-  <img alt="Seurat" src="https://img.shields.io/badge/Seurat-353B48?style=for-the-badge">
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
-  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
+**Languages**\
+![R](https://img.shields.io/badge/-R-05122A?style=flat&logo=r&logoColor=276DC3)&nbsp;
+![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
+![Bash](https://img.shields.io/badge/-Bash-05122A?style=flat&logo=gnubash&logoColor=4EAA25)&nbsp;
+![Quarto](https://img.shields.io/badge/-Quarto-05122A?style=flat&logo=quarto&logoColor=39729E)
+
+**Pipelines & Workflow**\
+![Nextflow](https://img.shields.io/badge/-Nextflow-05122A?style=flat&logo=nextflow&logoColor=0DC09D)&nbsp;
+![nf-core](https://img.shields.io/badge/-nf--core-05122A?style=flat)&nbsp;
+![Bioconductor](https://img.shields.io/badge/-Bioconductor-05122A?style=flat)&nbsp;
+![Conda](https://img.shields.io/badge/-Conda-05122A?style=flat&logo=anaconda&logoColor=44A833)&nbsp;
+![Salmon](https://img.shields.io/badge/-Salmon-05122A?style=flat)
+
+**Single-cell & Stats**\
+![Seurat](https://img.shields.io/badge/-Seurat-05122A?style=flat)&nbsp;
+![DESeq2](https://img.shields.io/badge/-DESeq2-05122A?style=flat)&nbsp;
+![edgeR](https://img.shields.io/badge/-edgeR-05122A?style=flat)&nbsp;
+![DiffBind](https://img.shields.io/badge/-DiffBind-05122A?style=flat)&nbsp;
+![tidyverse](https://img.shields.io/badge/-tidyverse-05122A?style=flat&logo=tidyverse&logoColor=1A162D)
+
+**Tools**\
+![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)&nbsp;
+![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)&nbsp;
+![Docker](https://img.shields.io/badge/-Docker-05122A?style=flat&logo=docker)&nbsp;
+![Linux](https://img.shields.io/badge/-Linux-05122A?style=flat&logo=linux&logoColor=FCC624)&nbsp;
+![RStudio](https://img.shields.io/badge/-RStudio-05122A?style=flat&logo=posit&logoColor=447099)
+
+### GitHub Analytics
+
+<p align="center">
+  <img src="metrics/general.svg" alt="GitHub Metrics" />
 </p>
 
-### 📌 Currently
+### Connect
 
-Building reproducible sequencing pipelines for pediatric leukemia and cancer-stem-cell
-genomics — turning large transcriptomic and epigenomic datasets into interpretable biology.
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-05122A?style=flat&logo=linkedin&logoColor=0A66C2)](https://www.linkedin.com/in/julian-grandvallet/)&nbsp;
+[![Website](https://img.shields.io/badge/-julgrandvallet.github.io-05122A?style=flat&logo=google-chrome&logoColor=4285F4)](https://julgrandvallet.github.io)&nbsp;
+[![Google Scholar](https://img.shields.io/badge/-Google%20Scholar-05122A?style=flat&logo=googlescholar&logoColor=4285F4)](https://scholar.google.com/citations?user=WKPGteEAAAAJ)&nbsp;
+[![ORCID](https://img.shields.io/badge/-ORCID-05122A?style=flat&logo=orcid&logoColor=A6CE39)](https://orcid.org/0000-0001-8021-070X)&nbsp;
+[![ResearchGate](https://img.shields.io/badge/-ResearchGate-05122A?style=flat&logo=researchgate&logoColor=00CCBB)](https://www.researchgate.net/profile/Julian-Grandvallet-Contreras)&nbsp;
+[![Email](https://img.shields.io/badge/-Email-05122A?style=flat&logo=gmail&logoColor=EA4335)](mailto:julian.g.contreras2025@gmail.com)
 
 <sub>🔒 Most analysis repositories are private — unpublished results and protected genomics data by lab policy.</sub>
