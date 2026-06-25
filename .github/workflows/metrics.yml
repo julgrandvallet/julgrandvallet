@@ -1,0 +1,27 @@
+name: GitHub metrics
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # weekly, Monday 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate metrics
+        uses: lowlighter/metrics@latest
+        with:
+          # Uses a personal access token if you add one as METRICS_TOKEN,
+          # otherwise falls back to the built-in GITHUB_TOKEN (public data only).
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: julgrandvallet
+          filename: metrics/general.svg
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: America/Denver
+          output_action: commit
+          committer_message: "chore: update GitHub metrics"
