@@ -1,5 +1,5 @@
 <h1 align="center">Julian Grandvallet Contreras</h1>
-<p align="center"><b>Computational Biologist | Bioinformatics for Cancer Genomics</b><br>RNA-seq, Single-cell, CUT&RUN, ATAC-seq — childhood leukemia &amp; cancer stem cells</p>
+<p align="center"><b>Computational Biologist | Bioinformatics for Cancer Genomics</b><br>RNA-seq, Single-cell, CUT&amp;RUN, ATAC-seq — childhood leukemia &amp; cancer stem cells</p>
 
 ---
 
