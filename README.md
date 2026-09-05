@@ -11,15 +11,38 @@
 - Adjunct member, University of Colorado Comprehensive Cancer Center
 - Contact: julian.g.contreras2025@gmail.com · [julgrandvallet.github.io](https://julgrandvallet.github.io)
 
-### Selected Work
+### Public Work
 
-Most analysis repositories here are private. What they contain:
+**[cutandrun-normalization-benchmark](https://github.com/julgrandvallet/cutandrun-normalization-benchmark)**
+Which normalization method recovers a genome-wide change in CUT&RUN signal, and which one hides
+it? A Nextflow pipeline scored against a dataset with known ground truth. Validated on simulated
+data where the answer is fixed in advance: spike-in normalization recovers a true fourfold loss
+at 98% directional purity, while library-size normalization reports that same loss as a
+significant *gain* at 480 regions. Docker, Singularity and SLURM profiles, self-checking
+analysis scripts, CI on every commit.
 
-- **CUT&amp;RUN normalization benchmark** — systematic comparison of spike-in versus library-size normalization across H3K27ac, H3K4me3, H3K9me3, and H3K36me3, including an independently reimplemented validation pass to check the primary result. Now the standard CUT&amp;RUN workflow across our bioinformatics core.
-- **Multi-omic B-ALL risk-variant analysis** — integration of RNA-seq, ATAC-seq, and CUT&amp;RUN linking the *ARID5B* rs7090445 risk variant to B-cell acute lymphoblastic leukemia incidence in Hispanic and Latino populations. Selected lightning talk, CU Anschutz Bioinformatics Symposium 2026.
-- **CAR-T resistance in pediatric B-ALL** — transcriptomic and epigenomic analysis of leukemic escape from CAR-T therapy (*Leukemia* 2026, *Blood* 2024/2025).
-- **Structural analysis of a Factor VIII variant** — molecular dynamics and docking for a novel gain-of-function mutation (*NEJM* 2025).
-- **Shared-resource pipeline support** — nf-core `rnaseq`, `atacseq`, and `cutandrun` deployed on SLURM HPC for six PI laboratories, with standardized samplesheet generation, parameter configuration, and QC review.
+**[learning-rnaseq](https://github.com/julgrandvallet/learning-rnaseq)**
+Concept-first RNA-seq teaching curriculum, from what a transcriptome is to interpreting
+differential expression. Written to train an undergraduate summer student, rebuilt on the public
+`airway` dataset for release. Slide decks, a FASTQ-to-counts prequel, and a sandbox for p-values
+and multiple-testing correction.
+
+### Work in Private Repositories
+
+- **Multi-omic B-ALL risk-variant analysis.** RNA-seq, ATAC-seq and CUT&RUN integration linking
+  the *ARID5B* rs7090445 risk variant to B-ALL incidence in Hispanic and Latino populations.
+  Selected lightning talk, CU Anschutz Bioinformatics Symposium 2026.
+- **Rare variant analysis, hereditary hearing loss.** WGS germline calling with nf-core/Sarek and
+  CNVkit, then annotation and prioritization with ANNOVAR, VEP/LOFTEE, ClinVar, and per-ancestry
+  gnomAD and GME allele-frequency filtering.
+- **CAR-T resistance in pediatric B-ALL.** Transcriptomic and epigenomic analysis of leukemic
+  escape from CAR-T therapy (*Leukemia* 2026, *Blood* 2024 and 2025).
+- **Factor VIII gain-of-function variant.** Molecular dynamics and docking (*NEJM* 2025).
+- **Shared-resource pipeline support.** nf-core `rnaseq`, `atacseq` and `cutandrun` on HPC under
+  LSF and SLURM for six PI laboratories.
+
+Published in *NEJM* (2025), *Leukemia* (2026), *EBioMedicine* (2026), *Brain Pathology* (2025),
+and *Blood* (2024, 2025).
 
 ### Tech Stack
 
